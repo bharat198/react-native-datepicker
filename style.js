@@ -21,8 +21,7 @@ let style = StyleSheet.create({
     height: 40,
     borderWidth: 1,
     borderColor: '#aaa',
-    alignItems: 'center',
-    justifyContent: 'center'
+    marginLeft: 5
   },
   dateText: {
     color: '#333'
@@ -64,7 +63,6 @@ let style = StyleSheet.create({
     right: 0
   },
   datePicker: {
-    marginTop: 42,
     borderTopColor: '#ccc',
     borderTopWidth: 1
   },
