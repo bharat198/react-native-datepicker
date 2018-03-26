@@ -177,7 +177,7 @@ class DatePicker extends Component {
     if (!date && placeholder) {
       return (<Text style={[Style.placeholderText, customStyles.placeholderText]}>{placeholder}</Text>);
     }
-    return (<Text style={[Style.dateText, customStyles.dateText]}>{this.getDateStr()}</Text>);
+    return (<Text style={[Style.placeholderText, customStyles.placeholderText]}>{placeholder}</Text>);
   }
 
   onDateChange(date) {
